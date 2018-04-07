@@ -1,0 +1,1546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A06A9AB20720CF0006B7661 /* NSObject+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A06A9AA20720CF0006B7661 /* NSObject+FTExtension.m */; };
+		8A4F93ED206C7BF000EFE80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F93EC206C7BF000EFE80A /* Assets.xcassets */; };
+		8A4F941A206C7DE500EFE80A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F93FF206C7DE500EFE80A /* main.m */; };
+		8A4F941B206C7DE500EFE80A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9400206C7DE500EFE80A /* AppDelegate.m */; };
+		8A4F941E206C7E0900EFE80A /* FTBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F941D206C7E0900EFE80A /* FTBaseVC.m */; };
+		8A4F9421206C7E2B00EFE80A /* FTMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9420206C7E2B00EFE80A /* FTMainVC.m */; };
+		8A4F9425206C7F3500EFE80A /* FTLoginRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9423206C7F3500EFE80A /* FTLoginRegisterVC.m */; };
+		8A4F9426206C7F3500EFE80A /* FTLoginRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9424206C7F3500EFE80A /* FTLoginRegisterVC.xib */; };
+		8A4F942D206C823300EFE80A /* FTRegisterPhoneNoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F942B206C823300EFE80A /* FTRegisterPhoneNoVC.m */; };
+		8A4F942E206C823300EFE80A /* FTRegisterPhoneNoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F942C206C823300EFE80A /* FTRegisterPhoneNoVC.xib */; };
+		8A4F9432206C827300EFE80A /* FTRegisterCountryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9430206C827300EFE80A /* FTRegisterCountryVC.m */; };
+		8A4F9433206C827300EFE80A /* FTRegisterCountryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9431206C827300EFE80A /* FTRegisterCountryVC.xib */; };
+		8A4F9437206C82A700EFE80A /* FTRegisterSMSCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9435206C82A700EFE80A /* FTRegisterSMSCodeVC.m */; };
+		8A4F9438206C82A700EFE80A /* FTRegisterSMSCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9436206C82A700EFE80A /* FTRegisterSMSCodeVC.xib */; };
+		8A4F943C206C82F600EFE80A /* FTRegisterPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F943A206C82F600EFE80A /* FTRegisterPwdVC.m */; };
+		8A4F943D206C82F600EFE80A /* FTRegisterPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F943B206C82F600EFE80A /* FTRegisterPwdVC.xib */; };
+		8A4F9441206C832D00EFE80A /* FTRegisterSuccessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F943F206C832D00EFE80A /* FTRegisterSuccessVC.m */; };
+		8A4F9442206C832D00EFE80A /* FTRegisterSuccessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9440206C832D00EFE80A /* FTRegisterSuccessVC.xib */; };
+		8A4F9446206C83A400EFE80A /* FTLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9444206C83A400EFE80A /* FTLoginVC.m */; };
+		8A4F9447206C83A400EFE80A /* FTLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9445206C83A400EFE80A /* FTLoginVC.xib */; };
+		8A4F944B206C83DF00EFE80A /* FTMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9449206C83DF00EFE80A /* FTMessageVC.m */; };
+		8A4F944C206C83DF00EFE80A /* FTMessageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F944A206C83DF00EFE80A /* FTMessageVC.xib */; };
+		8A4F9450206C83FC00EFE80A /* FTAddressBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F944E206C83FC00EFE80A /* FTAddressBookVC.m */; };
+		8A4F9451206C83FC00EFE80A /* FTAddressBookVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F944F206C83FC00EFE80A /* FTAddressBookVC.xib */; };
+		8A4F9455206C840C00EFE80A /* FTPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9453206C840C00EFE80A /* FTPhoneVC.m */; };
+		8A4F9456206C840C00EFE80A /* FTPhoneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9454206C840C00EFE80A /* FTPhoneVC.xib */; };
+		8A4F945A206C843000EFE80A /* FTDiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9458206C843000EFE80A /* FTDiscoverVC.m */; };
+		8A4F945B206C843000EFE80A /* FTDiscoverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9459206C843000EFE80A /* FTDiscoverVC.xib */; };
+		8A4F945F206C844500EFE80A /* FTMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F945D206C844500EFE80A /* FTMeVC.m */; };
+		8A4F9460206C844500EFE80A /* FTMeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F945E206C844500EFE80A /* FTMeVC.xib */; };
+		8A4F947E206C8A7500EFE80A /* FTRedeemCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F947C206C8A7500EFE80A /* FTRedeemCodeVC.m */; };
+		8A4F947F206C8A7500EFE80A /* FTRedeemCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F947D206C8A7500EFE80A /* FTRedeemCodeVC.xib */; };
+		8A4F9483206C8C5500EFE80A /* FTAboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9481206C8C5500EFE80A /* FTAboutVC.m */; };
+		8A4F9484206C8C5500EFE80A /* FTAboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9482206C8C5500EFE80A /* FTAboutVC.xib */; };
+		8A4F9488206C8C6E00EFE80A /* FTFeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9486206C8C6E00EFE80A /* FTFeedbackVC.m */; };
+		8A4F9489206C8C6E00EFE80A /* FTFeedbackVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9487206C8C6E00EFE80A /* FTFeedbackVC.xib */; };
+		8A4F948D206C8D1000EFE80A /* FTSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F948B206C8D1000EFE80A /* FTSettingVC.m */; };
+		8A4F948E206C8D1000EFE80A /* FTSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F948C206C8D1000EFE80A /* FTSettingVC.xib */; };
+		8A4F949B206C8F7200EFE80A /* FTAuthorityManageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9498206C8F7200EFE80A /* FTAuthorityManageVC.xib */; };
+		8A4F949C206C8F7200EFE80A /* FTAuthorityManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9499206C8F7200EFE80A /* FTAuthorityManageVC.m */; };
+		8A4F94A0206C8FBE00EFE80A /* FTQuickCallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F949E206C8FBE00EFE80A /* FTQuickCallVC.m */; };
+		8A4F94A1206C8FBE00EFE80A /* FTQuickCallVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F949F206C8FBE00EFE80A /* FTQuickCallVC.xib */; };
+		8A4F94A5206C903700EFE80A /* FTAccountSafeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94A3206C903700EFE80A /* FTAccountSafeVC.m */; };
+		8A4F94A6206C903700EFE80A /* FTAccountSafeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94A4206C903700EFE80A /* FTAccountSafeVC.xib */; };
+		8A4F94AE206C912900EFE80A /* FTBindPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94AC206C912800EFE80A /* FTBindPhoneVC.m */; };
+		8A4F94AF206C912900EFE80A /* FTBindPhoneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94AD206C912900EFE80A /* FTBindPhoneVC.xib */; };
+		8A4F94B3206C914000EFE80A /* FTBindEmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94B1206C914000EFE80A /* FTBindEmailVC.m */; };
+		8A4F94B4206C914000EFE80A /* FTBindEmailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94B2206C914000EFE80A /* FTBindEmailVC.xib */; };
+		8A4F94B8206C945C00EFE80A /* FTCouponVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94B6206C945C00EFE80A /* FTCouponVC.m */; };
+		8A4F94B9206C945C00EFE80A /* FTCouponVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94B7206C945C00EFE80A /* FTCouponVC.xib */; };
+		8A4F94BD206C94EE00EFE80A /* FTWalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94BB206C94EE00EFE80A /* FTWalletVC.m */; };
+		8A4F94BE206C94EE00EFE80A /* FTWalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94BC206C94EE00EFE80A /* FTWalletVC.xib */; };
+		8A4F94C7206C966800EFE80A /* FTPersonInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94C5206C966800EFE80A /* FTPersonInfoVC.m */; };
+		8A4F94C8206C966800EFE80A /* FTPersonInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94C6206C966800EFE80A /* FTPersonInfoVC.xib */; };
+		8A4F94CC206C97C900EFE80A /* FTSexChooseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94CA206C97C900EFE80A /* FTSexChooseVC.m */; };
+		8A4F94CD206C97C900EFE80A /* FTSexChooseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94CB206C97C900EFE80A /* FTSexChooseVC.xib */; };
+		8A4F94D1206C990A00EFE80A /* FTNickNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94CF206C990A00EFE80A /* FTNickNameVC.m */; };
+		8A4F94D2206C990A00EFE80A /* FTNickNameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94D0206C990A00EFE80A /* FTNickNameVC.xib */; };
+		8A4F94DB206CB7FD00EFE80A /* FTShippingAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94D9206CB7FD00EFE80A /* FTShippingAddressVC.m */; };
+		8A4F94DC206CB7FD00EFE80A /* FTShippingAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94DA206CB7FD00EFE80A /* FTShippingAddressVC.xib */; };
+		8A4F94E5206CB8AE00EFE80A /* FTEditShippingAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94E3206CB8AE00EFE80A /* FTEditShippingAddressVC.m */; };
+		8A4F94E6206CB8AE00EFE80A /* FTEditShippingAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94E4206CB8AE00EFE80A /* FTEditShippingAddressVC.xib */; };
+		8A4F94EF206CBE4900EFE80A /* FTSelectContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94ED206CBE4900EFE80A /* FTSelectContactVC.m */; };
+		8A4F94F0206CBE4900EFE80A /* FTSelectContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94EE206CBE4900EFE80A /* FTSelectContactVC.xib */; };
+		8A4F94F9206CBEE400EFE80A /* FTAddContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94F7206CBEE400EFE80A /* FTAddContactVC.m */; };
+		8A4F94FA206CBEE400EFE80A /* FTAddContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94F8206CBEE400EFE80A /* FTAddContactVC.xib */; };
+		8A4F94FE206CBF2100EFE80A /* FTContactDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F94FC206CBF2100EFE80A /* FTContactDetailVC.m */; };
+		8A4F94FF206CBF2100EFE80A /* FTContactDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F94FD206CBF2100EFE80A /* FTContactDetailVC.xib */; };
+		8A4F9503206CBF3100EFE80A /* FTEditContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9501206CBF3100EFE80A /* FTEditContactVC.m */; };
+		8A4F9504206CBF3100EFE80A /* FTEditContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9502206CBF3100EFE80A /* FTEditContactVC.xib */; };
+		8A4F9508206CC07500EFE80A /* FTCustomerServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F9506206CC07500EFE80A /* FTCustomerServiceVC.m */; };
+		8A4F9509206CC07500EFE80A /* FTCustomerServiceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9507206CC07500EFE80A /* FTCustomerServiceVC.xib */; };
+		8A4F9511206CC5EB00EFE80A /* FTWelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F950F206CC5EB00EFE80A /* FTWelcomeVC.m */; };
+		8A4F9512206CC5EB00EFE80A /* FTWelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F9510206CC5EB00EFE80A /* FTWelcomeVC.xib */; };
+		8A611CDA20789EF200818092 /* FTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A611CD920789EF200818092 /* FTSegmentedControl.m */; };
+		8A611CDD20789EFF00818092 /* FTSegmentedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A611CDC20789EFF00818092 /* FTSegmentedButton.m */; };
+		8A611CE32078A52E00818092 /* UITableView+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A611CE22078A52E00818092 /* UITableView+FTExtension.m */; };
+		8A611CE72078A64F00818092 /* FTPhoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A611CE52078A64F00818092 /* FTPhoneCell.m */; };
+		8A611CE82078A64F00818092 /* FTPhoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A611CE62078A64F00818092 /* FTPhoneCell.xib */; };
+		8A611CEE2078AD7F00818092 /* FTSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A611CED2078AD7F00818092 /* FTSeparator.m */; };
+		8A79203F2071BCF100FA117F /* UITabBarItem+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A79203E2071BCF100FA117F /* UITabBarItem+FTExtension.m */; };
+		8A7920462071C68400FA117F /* UITabBar+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7920452071C68400FA117F /* UITabBar+FTExtension.m */; };
+		8A872CE5207720210059CF70 /* FTTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A872CE4207720210059CF70 /* FTTabBarVC.m */; };
+		8A872CEA20772CE00059CF70 /* UIImage+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A872CE920772CE00059CF70 /* UIImage+FTExtension.m */; };
+		8A872CEE2077D04F0059CF70 /* UIView+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A872CED2077D04F0059CF70 /* UIView+FTExtension.m */; };
+		8AC5036D2074B51900CDDD69 /* FTFormTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC5036C2074B51900CDDD69 /* FTFormTableView.m */; };
+		8AC503712074B5AF00CDDD69 /* FTFormBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC503702074B5AF00CDDD69 /* FTFormBaseTableViewCell.m */; };
+		8AC503752074B7FC00CDDD69 /* FTSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC503742074B7FC00CDDD69 /* FTSectionItem.m */; };
+		8AC503792074BD0400CDDD69 /* FTFormTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC503772074BD0400CDDD69 /* FTFormTextFieldTableViewCell.m */; };
+		8AC5037E2074CBD400CDDD69 /* FTFormSelectedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC5037C2074CBD400CDDD69 /* FTFormSelectedTableViewCell.m */; };
+		8AC5037F2074CBD400CDDD69 /* FTFormSelectedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC5037D2074CBD400CDDD69 /* FTFormSelectedTableViewCell.xib */; };
+		8AC503812074CBF700CDDD69 /* FTFormTextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC503802074CBF700CDDD69 /* FTFormTextFieldTableViewCell.xib */; };
+		8AC503852074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC503832074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.m */; };
+		8AC503862074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC503842074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.xib */; };
+		E31113ACFA5F0FD5B59AFA7E /* libPods-FreeTalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A6E6B6F259A9F3249E861 /* libPods-FreeTalk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187A6E6B6F259A9F3249E861 /* libPods-FreeTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreeTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A59B3D6C430CC1E5D6E886 /* Pods-FreeTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk.release.xcconfig"; sourceTree = "<group>"; };
+		8A06A9A920720CF0006B7661 /* NSObject+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FTExtension.h"; sourceTree = "<group>"; };
+		8A06A9AA20720CF0006B7661 /* NSObject+FTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FTExtension.m"; sourceTree = "<group>"; };
+		8A4F93B3206C79A900EFE80A /* FreeTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4F93EC206C7BF000EFE80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A4F93F6206C7D2D00EFE80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FreeTalk/Info.plist; sourceTree = SOURCE_ROOT; };
+		8A4F93FE206C7DE500EFE80A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A4F93FF206C7DE500EFE80A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A4F9400206C7DE500EFE80A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A4F941C206C7E0900EFE80A /* FTBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBaseVC.h; sourceTree = "<group>"; };
+		8A4F941D206C7E0900EFE80A /* FTBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBaseVC.m; sourceTree = "<group>"; };
+		8A4F941F206C7E2B00EFE80A /* FTMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMainVC.h; sourceTree = "<group>"; };
+		8A4F9420206C7E2B00EFE80A /* FTMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMainVC.m; sourceTree = "<group>"; };
+		8A4F9422206C7F3500EFE80A /* FTLoginRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTLoginRegisterVC.h; sourceTree = "<group>"; };
+		8A4F9423206C7F3500EFE80A /* FTLoginRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTLoginRegisterVC.m; sourceTree = "<group>"; };
+		8A4F9424206C7F3500EFE80A /* FTLoginRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTLoginRegisterVC.xib; sourceTree = "<group>"; };
+		8A4F942A206C823300EFE80A /* FTRegisterPhoneNoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegisterPhoneNoVC.h; sourceTree = "<group>"; };
+		8A4F942B206C823300EFE80A /* FTRegisterPhoneNoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegisterPhoneNoVC.m; sourceTree = "<group>"; };
+		8A4F942C206C823300EFE80A /* FTRegisterPhoneNoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRegisterPhoneNoVC.xib; sourceTree = "<group>"; };
+		8A4F942F206C827300EFE80A /* FTRegisterCountryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegisterCountryVC.h; sourceTree = "<group>"; };
+		8A4F9430206C827300EFE80A /* FTRegisterCountryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegisterCountryVC.m; sourceTree = "<group>"; };
+		8A4F9431206C827300EFE80A /* FTRegisterCountryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRegisterCountryVC.xib; sourceTree = "<group>"; };
+		8A4F9434206C82A700EFE80A /* FTRegisterSMSCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegisterSMSCodeVC.h; sourceTree = "<group>"; };
+		8A4F9435206C82A700EFE80A /* FTRegisterSMSCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegisterSMSCodeVC.m; sourceTree = "<group>"; };
+		8A4F9436206C82A700EFE80A /* FTRegisterSMSCodeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRegisterSMSCodeVC.xib; sourceTree = "<group>"; };
+		8A4F9439206C82F600EFE80A /* FTRegisterPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegisterPwdVC.h; sourceTree = "<group>"; };
+		8A4F943A206C82F600EFE80A /* FTRegisterPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegisterPwdVC.m; sourceTree = "<group>"; };
+		8A4F943B206C82F600EFE80A /* FTRegisterPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRegisterPwdVC.xib; sourceTree = "<group>"; };
+		8A4F943E206C832D00EFE80A /* FTRegisterSuccessVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRegisterSuccessVC.h; sourceTree = "<group>"; };
+		8A4F943F206C832D00EFE80A /* FTRegisterSuccessVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRegisterSuccessVC.m; sourceTree = "<group>"; };
+		8A4F9440206C832D00EFE80A /* FTRegisterSuccessVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRegisterSuccessVC.xib; sourceTree = "<group>"; };
+		8A4F9443206C83A400EFE80A /* FTLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTLoginVC.h; sourceTree = "<group>"; };
+		8A4F9444206C83A400EFE80A /* FTLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTLoginVC.m; sourceTree = "<group>"; };
+		8A4F9445206C83A400EFE80A /* FTLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTLoginVC.xib; sourceTree = "<group>"; };
+		8A4F9448206C83DF00EFE80A /* FTMessageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMessageVC.h; sourceTree = "<group>"; };
+		8A4F9449206C83DF00EFE80A /* FTMessageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMessageVC.m; sourceTree = "<group>"; };
+		8A4F944A206C83DF00EFE80A /* FTMessageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMessageVC.xib; sourceTree = "<group>"; };
+		8A4F944D206C83FC00EFE80A /* FTAddressBookVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAddressBookVC.h; sourceTree = "<group>"; };
+		8A4F944E206C83FC00EFE80A /* FTAddressBookVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAddressBookVC.m; sourceTree = "<group>"; };
+		8A4F944F206C83FC00EFE80A /* FTAddressBookVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTAddressBookVC.xib; sourceTree = "<group>"; };
+		8A4F9452206C840C00EFE80A /* FTPhoneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPhoneVC.h; sourceTree = "<group>"; };
+		8A4F9453206C840C00EFE80A /* FTPhoneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPhoneVC.m; sourceTree = "<group>"; };
+		8A4F9454206C840C00EFE80A /* FTPhoneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTPhoneVC.xib; sourceTree = "<group>"; };
+		8A4F9457206C843000EFE80A /* FTDiscoverVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTDiscoverVC.h; sourceTree = "<group>"; };
+		8A4F9458206C843000EFE80A /* FTDiscoverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTDiscoverVC.m; sourceTree = "<group>"; };
+		8A4F9459206C843000EFE80A /* FTDiscoverVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTDiscoverVC.xib; sourceTree = "<group>"; };
+		8A4F945C206C844500EFE80A /* FTMeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTMeVC.h; sourceTree = "<group>"; };
+		8A4F945D206C844500EFE80A /* FTMeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTMeVC.m; sourceTree = "<group>"; };
+		8A4F945E206C844500EFE80A /* FTMeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTMeVC.xib; sourceTree = "<group>"; };
+		8A4F947B206C8A7500EFE80A /* FTRedeemCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTRedeemCodeVC.h; sourceTree = "<group>"; };
+		8A4F947C206C8A7500EFE80A /* FTRedeemCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTRedeemCodeVC.m; sourceTree = "<group>"; };
+		8A4F947D206C8A7500EFE80A /* FTRedeemCodeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTRedeemCodeVC.xib; sourceTree = "<group>"; };
+		8A4F9480206C8C5500EFE80A /* FTAboutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAboutVC.h; sourceTree = "<group>"; };
+		8A4F9481206C8C5500EFE80A /* FTAboutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAboutVC.m; sourceTree = "<group>"; };
+		8A4F9482206C8C5500EFE80A /* FTAboutVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTAboutVC.xib; sourceTree = "<group>"; };
+		8A4F9485206C8C6E00EFE80A /* FTFeedbackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFeedbackVC.h; sourceTree = "<group>"; };
+		8A4F9486206C8C6E00EFE80A /* FTFeedbackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFeedbackVC.m; sourceTree = "<group>"; };
+		8A4F9487206C8C6E00EFE80A /* FTFeedbackVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTFeedbackVC.xib; sourceTree = "<group>"; };
+		8A4F948A206C8D1000EFE80A /* FTSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSettingVC.h; sourceTree = "<group>"; };
+		8A4F948B206C8D1000EFE80A /* FTSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSettingVC.m; sourceTree = "<group>"; };
+		8A4F948C206C8D1000EFE80A /* FTSettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSettingVC.xib; sourceTree = "<group>"; };
+		8A4F9498206C8F7200EFE80A /* FTAuthorityManageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTAuthorityManageVC.xib; sourceTree = "<group>"; };
+		8A4F9499206C8F7200EFE80A /* FTAuthorityManageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAuthorityManageVC.m; sourceTree = "<group>"; };
+		8A4F949A206C8F7200EFE80A /* FTAuthorityManageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAuthorityManageVC.h; sourceTree = "<group>"; };
+		8A4F949D206C8FBE00EFE80A /* FTQuickCallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTQuickCallVC.h; sourceTree = "<group>"; };
+		8A4F949E206C8FBE00EFE80A /* FTQuickCallVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTQuickCallVC.m; sourceTree = "<group>"; };
+		8A4F949F206C8FBE00EFE80A /* FTQuickCallVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTQuickCallVC.xib; sourceTree = "<group>"; };
+		8A4F94A2206C903700EFE80A /* FTAccountSafeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAccountSafeVC.h; sourceTree = "<group>"; };
+		8A4F94A3206C903700EFE80A /* FTAccountSafeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAccountSafeVC.m; sourceTree = "<group>"; };
+		8A4F94A4206C903700EFE80A /* FTAccountSafeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTAccountSafeVC.xib; sourceTree = "<group>"; };
+		8A4F94AB206C912800EFE80A /* FTBindPhoneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBindPhoneVC.h; sourceTree = "<group>"; };
+		8A4F94AC206C912800EFE80A /* FTBindPhoneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBindPhoneVC.m; sourceTree = "<group>"; };
+		8A4F94AD206C912900EFE80A /* FTBindPhoneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTBindPhoneVC.xib; sourceTree = "<group>"; };
+		8A4F94B0206C914000EFE80A /* FTBindEmailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBindEmailVC.h; sourceTree = "<group>"; };
+		8A4F94B1206C914000EFE80A /* FTBindEmailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTBindEmailVC.m; sourceTree = "<group>"; };
+		8A4F94B2206C914000EFE80A /* FTBindEmailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTBindEmailVC.xib; sourceTree = "<group>"; };
+		8A4F94B5206C945C00EFE80A /* FTCouponVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTCouponVC.h; sourceTree = "<group>"; };
+		8A4F94B6206C945C00EFE80A /* FTCouponVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTCouponVC.m; sourceTree = "<group>"; };
+		8A4F94B7206C945C00EFE80A /* FTCouponVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTCouponVC.xib; sourceTree = "<group>"; };
+		8A4F94BA206C94EE00EFE80A /* FTWalletVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWalletVC.h; sourceTree = "<group>"; };
+		8A4F94BB206C94EE00EFE80A /* FTWalletVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWalletVC.m; sourceTree = "<group>"; };
+		8A4F94BC206C94EE00EFE80A /* FTWalletVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTWalletVC.xib; sourceTree = "<group>"; };
+		8A4F94C4206C966800EFE80A /* FTPersonInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPersonInfoVC.h; sourceTree = "<group>"; };
+		8A4F94C5206C966800EFE80A /* FTPersonInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPersonInfoVC.m; sourceTree = "<group>"; };
+		8A4F94C6206C966800EFE80A /* FTPersonInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTPersonInfoVC.xib; sourceTree = "<group>"; };
+		8A4F94C9206C97C900EFE80A /* FTSexChooseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSexChooseVC.h; sourceTree = "<group>"; };
+		8A4F94CA206C97C900EFE80A /* FTSexChooseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSexChooseVC.m; sourceTree = "<group>"; };
+		8A4F94CB206C97C900EFE80A /* FTSexChooseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSexChooseVC.xib; sourceTree = "<group>"; };
+		8A4F94CE206C990A00EFE80A /* FTNickNameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNickNameVC.h; sourceTree = "<group>"; };
+		8A4F94CF206C990A00EFE80A /* FTNickNameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTNickNameVC.m; sourceTree = "<group>"; };
+		8A4F94D0206C990A00EFE80A /* FTNickNameVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTNickNameVC.xib; sourceTree = "<group>"; };
+		8A4F94D8206CB7FD00EFE80A /* FTShippingAddressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTShippingAddressVC.h; sourceTree = "<group>"; };
+		8A4F94D9206CB7FD00EFE80A /* FTShippingAddressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTShippingAddressVC.m; sourceTree = "<group>"; };
+		8A4F94DA206CB7FD00EFE80A /* FTShippingAddressVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTShippingAddressVC.xib; sourceTree = "<group>"; };
+		8A4F94E2206CB8AE00EFE80A /* FTEditShippingAddressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTEditShippingAddressVC.h; sourceTree = "<group>"; };
+		8A4F94E3206CB8AE00EFE80A /* FTEditShippingAddressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTEditShippingAddressVC.m; sourceTree = "<group>"; };
+		8A4F94E4206CB8AE00EFE80A /* FTEditShippingAddressVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTEditShippingAddressVC.xib; sourceTree = "<group>"; };
+		8A4F94EC206CBE4900EFE80A /* FTSelectContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSelectContactVC.h; sourceTree = "<group>"; };
+		8A4F94ED206CBE4900EFE80A /* FTSelectContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSelectContactVC.m; sourceTree = "<group>"; };
+		8A4F94EE206CBE4900EFE80A /* FTSelectContactVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSelectContactVC.xib; sourceTree = "<group>"; };
+		8A4F94F6206CBEE400EFE80A /* FTAddContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAddContactVC.h; sourceTree = "<group>"; };
+		8A4F94F7206CBEE400EFE80A /* FTAddContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAddContactVC.m; sourceTree = "<group>"; };
+		8A4F94F8206CBEE400EFE80A /* FTAddContactVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTAddContactVC.xib; sourceTree = "<group>"; };
+		8A4F94FB206CBF2100EFE80A /* FTContactDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTContactDetailVC.h; sourceTree = "<group>"; };
+		8A4F94FC206CBF2100EFE80A /* FTContactDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTContactDetailVC.m; sourceTree = "<group>"; };
+		8A4F94FD206CBF2100EFE80A /* FTContactDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTContactDetailVC.xib; sourceTree = "<group>"; };
+		8A4F9500206CBF3100EFE80A /* FTEditContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTEditContactVC.h; sourceTree = "<group>"; };
+		8A4F9501206CBF3100EFE80A /* FTEditContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTEditContactVC.m; sourceTree = "<group>"; };
+		8A4F9502206CBF3100EFE80A /* FTEditContactVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTEditContactVC.xib; sourceTree = "<group>"; };
+		8A4F9505206CC07500EFE80A /* FTCustomerServiceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTCustomerServiceVC.h; sourceTree = "<group>"; };
+		8A4F9506206CC07500EFE80A /* FTCustomerServiceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTCustomerServiceVC.m; sourceTree = "<group>"; };
+		8A4F9507206CC07500EFE80A /* FTCustomerServiceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTCustomerServiceVC.xib; sourceTree = "<group>"; };
+		8A4F950E206CC5EB00EFE80A /* FTWelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWelcomeVC.h; sourceTree = "<group>"; };
+		8A4F950F206CC5EB00EFE80A /* FTWelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWelcomeVC.m; sourceTree = "<group>"; };
+		8A4F9510206CC5EB00EFE80A /* FTWelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTWelcomeVC.xib; sourceTree = "<group>"; };
+		8A611CD820789EF200818092 /* FTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSegmentedControl.h; sourceTree = "<group>"; };
+		8A611CD920789EF200818092 /* FTSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSegmentedControl.m; sourceTree = "<group>"; };
+		8A611CDB20789EFF00818092 /* FTSegmentedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSegmentedButton.h; sourceTree = "<group>"; };
+		8A611CDC20789EFF00818092 /* FTSegmentedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSegmentedButton.m; sourceTree = "<group>"; };
+		8A611CE12078A52E00818092 /* UITableView+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FTExtension.h"; sourceTree = "<group>"; };
+		8A611CE22078A52E00818092 /* UITableView+FTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FTExtension.m"; sourceTree = "<group>"; };
+		8A611CE42078A64F00818092 /* FTPhoneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPhoneCell.h; sourceTree = "<group>"; };
+		8A611CE52078A64F00818092 /* FTPhoneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPhoneCell.m; sourceTree = "<group>"; };
+		8A611CE62078A64F00818092 /* FTPhoneCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTPhoneCell.xib; sourceTree = "<group>"; };
+		8A611CEC2078AD7F00818092 /* FTSeparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSeparator.h; sourceTree = "<group>"; };
+		8A611CED2078AD7F00818092 /* FTSeparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSeparator.m; sourceTree = "<group>"; };
+		8A79203D2071BCF100FA117F /* UITabBarItem+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+FTExtension.h"; sourceTree = "<group>"; };
+		8A79203E2071BCF100FA117F /* UITabBarItem+FTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+FTExtension.m"; sourceTree = "<group>"; };
+		8A7920402071C10B00FA117F /* FTToolMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTToolMacros.h; sourceTree = "<group>"; };
+		8A7920442071C68400FA117F /* UITabBar+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FTExtension.h"; sourceTree = "<group>"; };
+		8A7920452071C68400FA117F /* UITabBar+FTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FTExtension.m"; sourceTree = "<group>"; };
+		8A872CE3207720210059CF70 /* FTTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTTabBarVC.h; sourceTree = "<group>"; };
+		8A872CE4207720210059CF70 /* FTTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTTabBarVC.m; sourceTree = "<group>"; };
+		8A872CE820772CE00059CF70 /* UIImage+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FTExtension.h"; sourceTree = "<group>"; };
+		8A872CE920772CE00059CF70 /* UIImage+FTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FTExtension.m"; sourceTree = "<group>"; };
+		8A872CEC2077D04F0059CF70 /* UIView+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FTExtension.h"; sourceTree = "<group>"; };
+		8A872CED2077D04F0059CF70 /* UIView+FTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FTExtension.m"; sourceTree = "<group>"; };
+		8AC5036B2074B51900CDDD69 /* FTFormTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFormTableView.h; sourceTree = "<group>"; };
+		8AC5036C2074B51900CDDD69 /* FTFormTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFormTableView.m; sourceTree = "<group>"; };
+		8AC5036F2074B5AF00CDDD69 /* FTFormBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFormBaseTableViewCell.h; sourceTree = "<group>"; };
+		8AC503702074B5AF00CDDD69 /* FTFormBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFormBaseTableViewCell.m; sourceTree = "<group>"; };
+		8AC503732074B7FC00CDDD69 /* FTSectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSectionItem.h; sourceTree = "<group>"; };
+		8AC503742074B7FC00CDDD69 /* FTSectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSectionItem.m; sourceTree = "<group>"; };
+		8AC503762074BD0400CDDD69 /* FTFormTextFieldTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFormTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		8AC503772074BD0400CDDD69 /* FTFormTextFieldTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFormTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		8AC5037B2074CBD400CDDD69 /* FTFormSelectedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFormSelectedTableViewCell.h; sourceTree = "<group>"; };
+		8AC5037C2074CBD400CDDD69 /* FTFormSelectedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFormSelectedTableViewCell.m; sourceTree = "<group>"; };
+		8AC5037D2074CBD400CDDD69 /* FTFormSelectedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTFormSelectedTableViewCell.xib; sourceTree = "<group>"; };
+		8AC503802074CBF700CDDD69 /* FTFormTextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTFormTextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		8AC503822074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFormSingleChoiceTableViewCell.h; sourceTree = "<group>"; };
+		8AC503832074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFormSingleChoiceTableViewCell.m; sourceTree = "<group>"; };
+		8AC503842074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTFormSingleChoiceTableViewCell.xib; sourceTree = "<group>"; };
+		ED5D6A6932997E1B6E770AF2 /* Pods-FreeTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A4F93B0206C79A900EFE80A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31113ACFA5F0FD5B59AFA7E /* libPods-FreeTalk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0488F779911C3CBA0A10FE5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED5D6A6932997E1B6E770AF2 /* Pods-FreeTalk.debug.xcconfig */,
+				32A59B3D6C430CC1E5D6E886 /* Pods-FreeTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		15D209A17C47C9CF4A1C0716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187A6E6B6F259A9F3249E861 /* libPods-FreeTalk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A4F93AA206C79A900EFE80A = {
+			isa = PBXGroup;
+			children = (
+				8A4F93B5206C79A900EFE80A /* FreeTalk */,
+				8A4F93B4206C79A900EFE80A /* Products */,
+				0488F779911C3CBA0A10FE5B /* Pods */,
+				15D209A17C47C9CF4A1C0716 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A4F93B4206C79A900EFE80A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F93B3206C79A900EFE80A /* FreeTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A4F93B5206C79A900EFE80A /* FreeTalk */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F93F7206C7DE500EFE80A /* Classes */,
+				8A4F93EB206C7BF000EFE80A /* Resource */,
+			);
+			path = FreeTalk;
+			sourceTree = "<group>";
+		};
+		8A4F93EB206C7BF000EFE80A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F93F6206C7D2D00EFE80A /* Info.plist */,
+				8A4F93EC206C7BF000EFE80A /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8A4F93F7206C7DE500EFE80A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F93F8206C7DE500EFE80A /* Core */,
+				8A4F9401206C7DE500EFE80A /* Business */,
+				8A4F93FD206C7DE500EFE80A /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8A4F93F8206C7DE500EFE80A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A7920342071BBD600FA117F /* Utils */,
+				8A4F93F9206C7DE500EFE80A /* Controller */,
+				8A4F93FA206C7DE500EFE80A /* Model */,
+				8A4F93FB206C7DE500EFE80A /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8A4F93F9206C7DE500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F941C206C7E0900EFE80A /* FTBaseVC.h */,
+				8A4F941D206C7E0900EFE80A /* FTBaseVC.m */,
+				8A4F941F206C7E2B00EFE80A /* FTMainVC.h */,
+				8A4F9420206C7E2B00EFE80A /* FTMainVC.m */,
+				8A872CE3207720210059CF70 /* FTTabBarVC.h */,
+				8A872CE4207720210059CF70 /* FTTabBarVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F93FA206C7DE500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AC503722074B7EA00CDDD69 /* Form */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F93FB206C7DE500EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A611CEC2078AD7F00818092 /* FTSeparator.h */,
+				8A611CED2078AD7F00818092 /* FTSeparator.m */,
+				8A611CD720789EF200818092 /* FTSegmentedControl */,
+				8AC5036A2074B50500CDDD69 /* Form */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F93FD206C7DE500EFE80A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F93FE206C7DE500EFE80A /* AppDelegate.h */,
+				8A4F9400206C7DE500EFE80A /* AppDelegate.m */,
+				8A4F93FF206C7DE500EFE80A /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8A4F9401206C7DE500EFE80A /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F950A206CC4E700EFE80A /* Welcome */,
+				8A4F9402206C7DE500EFE80A /* Discover */,
+				8A4F9406206C7DE500EFE80A /* Message */,
+				8A4F940A206C7DE500EFE80A /* LoginRegister */,
+				8A4F940E206C7DE500EFE80A /* Me */,
+				8A4F9412206C7DE500EFE80A /* AddressBook */,
+				8A4F9416206C7DE500EFE80A /* Phone */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		8A4F9402206C7DE500EFE80A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9403206C7DE500EFE80A /* Controller */,
+				8A4F9404206C7DE500EFE80A /* Model */,
+				8A4F9405206C7DE500EFE80A /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		8A4F9403206C7DE500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9457206C843000EFE80A /* FTDiscoverVC.h */,
+				8A4F9458206C843000EFE80A /* FTDiscoverVC.m */,
+				8A4F9459206C843000EFE80A /* FTDiscoverVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9404206C7DE500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9405206C7DE500EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F9406206C7DE500EFE80A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9407206C7DE500EFE80A /* Controller */,
+				8A4F9408206C7DE500EFE80A /* Model */,
+				8A4F9409206C7DE500EFE80A /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8A4F9407206C7DE500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9448206C83DF00EFE80A /* FTMessageVC.h */,
+				8A4F9449206C83DF00EFE80A /* FTMessageVC.m */,
+				8A4F944A206C83DF00EFE80A /* FTMessageVC.xib */,
+				8A4F94EC206CBE4900EFE80A /* FTSelectContactVC.h */,
+				8A4F94ED206CBE4900EFE80A /* FTSelectContactVC.m */,
+				8A4F94EE206CBE4900EFE80A /* FTSelectContactVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9408206C7DE500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9409206C7DE500EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F940A206C7DE500EFE80A /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F940B206C7DE500EFE80A /* Controller */,
+				8A4F940C206C7DE500EFE80A /* Model */,
+				8A4F940D206C7DE500EFE80A /* View */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		8A4F940B206C7DE500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9422206C7F3500EFE80A /* FTLoginRegisterVC.h */,
+				8A4F9423206C7F3500EFE80A /* FTLoginRegisterVC.m */,
+				8A4F9424206C7F3500EFE80A /* FTLoginRegisterVC.xib */,
+				8A4F9443206C83A400EFE80A /* FTLoginVC.h */,
+				8A4F9444206C83A400EFE80A /* FTLoginVC.m */,
+				8A4F9445206C83A400EFE80A /* FTLoginVC.xib */,
+				8A4F942A206C823300EFE80A /* FTRegisterPhoneNoVC.h */,
+				8A4F942B206C823300EFE80A /* FTRegisterPhoneNoVC.m */,
+				8A4F942C206C823300EFE80A /* FTRegisterPhoneNoVC.xib */,
+				8A4F942F206C827300EFE80A /* FTRegisterCountryVC.h */,
+				8A4F9430206C827300EFE80A /* FTRegisterCountryVC.m */,
+				8A4F9431206C827300EFE80A /* FTRegisterCountryVC.xib */,
+				8A4F9434206C82A700EFE80A /* FTRegisterSMSCodeVC.h */,
+				8A4F9435206C82A700EFE80A /* FTRegisterSMSCodeVC.m */,
+				8A4F9436206C82A700EFE80A /* FTRegisterSMSCodeVC.xib */,
+				8A4F9439206C82F600EFE80A /* FTRegisterPwdVC.h */,
+				8A4F943A206C82F600EFE80A /* FTRegisterPwdVC.m */,
+				8A4F943B206C82F600EFE80A /* FTRegisterPwdVC.xib */,
+				8A4F943E206C832D00EFE80A /* FTRegisterSuccessVC.h */,
+				8A4F943F206C832D00EFE80A /* FTRegisterSuccessVC.m */,
+				8A4F9440206C832D00EFE80A /* FTRegisterSuccessVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F940C206C7DE500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F940D206C7DE500EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F940E206C7DE500EFE80A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F940F206C7DE500EFE80A /* Controller */,
+				8A4F9410206C7DE500EFE80A /* Model */,
+				8A4F9411206C7DE500EFE80A /* View */,
+				8A4F9461206C87F300EFE80A /* SubModule */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8A4F940F206C7DE500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F945C206C844500EFE80A /* FTMeVC.h */,
+				8A4F945D206C844500EFE80A /* FTMeVC.m */,
+				8A4F945E206C844500EFE80A /* FTMeVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9410206C7DE500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9411206C7DE500EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F9412206C7DE500EFE80A /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94F1206CBED000EFE80A /* SubModule */,
+				8A4F9413206C7DE500EFE80A /* Controller */,
+				8A4F9414206C7DE500EFE80A /* Model */,
+				8A4F9415206C7DE500EFE80A /* View */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		8A4F9413206C7DE500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F944D206C83FC00EFE80A /* FTAddressBookVC.h */,
+				8A4F944E206C83FC00EFE80A /* FTAddressBookVC.m */,
+				8A4F944F206C83FC00EFE80A /* FTAddressBookVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9414206C7DE500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9415206C7DE500EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F9416206C7DE500EFE80A /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				8A872CF22077E9A20059CF70 /* View */,
+				8A4F9417206C7DE500EFE80A /* Controller */,
+				8A4F9418206C7DE500EFE80A /* Model */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		8A4F9417206C7DE500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9452206C840C00EFE80A /* FTPhoneVC.h */,
+				8A4F9453206C840C00EFE80A /* FTPhoneVC.m */,
+				8A4F9454206C840C00EFE80A /* FTPhoneVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9418206C7DE500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9461206C87F300EFE80A /* SubModule */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94C0206C960500EFE80A /* PersonInfo */,
+				8A4F9462206C87F300EFE80A /* RedeemCode */,
+				8A4F9466206C87F300EFE80A /* About */,
+				8A4F946A206C87F300EFE80A /* Coupon */,
+				8A4F946E206C87F300EFE80A /* Wallet */,
+				8A4F9472206C87F300EFE80A /* Setting */,
+			);
+			path = SubModule;
+			sourceTree = "<group>";
+		};
+		8A4F9462206C87F300EFE80A /* RedeemCode */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9463206C87F300EFE80A /* Controller */,
+				8A4F9464206C87F300EFE80A /* Model */,
+				8A4F9465206C87F300EFE80A /* View */,
+			);
+			path = RedeemCode;
+			sourceTree = "<group>";
+		};
+		8A4F9463206C87F300EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F947B206C8A7500EFE80A /* FTRedeemCodeVC.h */,
+				8A4F947C206C8A7500EFE80A /* FTRedeemCodeVC.m */,
+				8A4F947D206C8A7500EFE80A /* FTRedeemCodeVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9464206C87F300EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9465206C87F300EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F9466206C87F300EFE80A /* About */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9467206C87F300EFE80A /* Controller */,
+				8A4F9468206C87F300EFE80A /* Model */,
+				8A4F9469206C87F300EFE80A /* View */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		8A4F9467206C87F300EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9480206C8C5500EFE80A /* FTAboutVC.h */,
+				8A4F9481206C8C5500EFE80A /* FTAboutVC.m */,
+				8A4F9482206C8C5500EFE80A /* FTAboutVC.xib */,
+				8A4F9485206C8C6E00EFE80A /* FTFeedbackVC.h */,
+				8A4F9486206C8C6E00EFE80A /* FTFeedbackVC.m */,
+				8A4F9487206C8C6E00EFE80A /* FTFeedbackVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9468206C87F300EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9469206C87F300EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F946A206C87F300EFE80A /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F946B206C87F300EFE80A /* Controller */,
+				8A4F946C206C87F300EFE80A /* Model */,
+				8A4F946D206C87F300EFE80A /* View */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		8A4F946B206C87F300EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94B5206C945C00EFE80A /* FTCouponVC.h */,
+				8A4F94B6206C945C00EFE80A /* FTCouponVC.m */,
+				8A4F94B7206C945C00EFE80A /* FTCouponVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F946C206C87F300EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F946D206C87F300EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F946E206C87F300EFE80A /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F946F206C87F300EFE80A /* Controller */,
+				8A4F9470206C87F300EFE80A /* Model */,
+				8A4F9471206C87F300EFE80A /* View */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		8A4F946F206C87F300EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94BA206C94EE00EFE80A /* FTWalletVC.h */,
+				8A4F94BB206C94EE00EFE80A /* FTWalletVC.m */,
+				8A4F94BC206C94EE00EFE80A /* FTWalletVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9470206C87F300EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9471206C87F300EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F9472206C87F300EFE80A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9476206C896D00EFE80A /* SubModule */,
+				8A4F9473206C87F300EFE80A /* Controller */,
+				8A4F9474206C87F300EFE80A /* Model */,
+				8A4F9475206C87F300EFE80A /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		8A4F9473206C87F300EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F948A206C8D1000EFE80A /* FTSettingVC.h */,
+				8A4F948B206C8D1000EFE80A /* FTSettingVC.m */,
+				8A4F948C206C8D1000EFE80A /* FTSettingVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9474206C87F300EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F9475206C87F300EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F9476206C896D00EFE80A /* SubModule */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F949A206C8F7200EFE80A /* FTAuthorityManageVC.h */,
+				8A4F9499206C8F7200EFE80A /* FTAuthorityManageVC.m */,
+				8A4F9498206C8F7200EFE80A /* FTAuthorityManageVC.xib */,
+				8A4F949D206C8FBE00EFE80A /* FTQuickCallVC.h */,
+				8A4F949E206C8FBE00EFE80A /* FTQuickCallVC.m */,
+				8A4F949F206C8FBE00EFE80A /* FTQuickCallVC.xib */,
+				8A4F9477206C896D00EFE80A /* AccountSafe */,
+			);
+			path = SubModule;
+			sourceTree = "<group>";
+		};
+		8A4F9477206C896D00EFE80A /* AccountSafe */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F9478206C896D00EFE80A /* Controller */,
+				8A4F9479206C896D00EFE80A /* Model */,
+				8A4F947A206C896D00EFE80A /* View */,
+			);
+			path = AccountSafe;
+			sourceTree = "<group>";
+		};
+		8A4F9478206C896D00EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94A2206C903700EFE80A /* FTAccountSafeVC.h */,
+				8A4F94A3206C903700EFE80A /* FTAccountSafeVC.m */,
+				8A4F94A4206C903700EFE80A /* FTAccountSafeVC.xib */,
+				8A4F94AB206C912800EFE80A /* FTBindPhoneVC.h */,
+				8A4F94AC206C912800EFE80A /* FTBindPhoneVC.m */,
+				8A4F94AD206C912900EFE80A /* FTBindPhoneVC.xib */,
+				8A4F94B0206C914000EFE80A /* FTBindEmailVC.h */,
+				8A4F94B1206C914000EFE80A /* FTBindEmailVC.m */,
+				8A4F94B2206C914000EFE80A /* FTBindEmailVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F9479206C896D00EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F947A206C896D00EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F94C0206C960500EFE80A /* PersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94D3206CB7B700EFE80A /* SubModule */,
+				8A4F94C1206C960500EFE80A /* Controller */,
+				8A4F94C2206C960500EFE80A /* Model */,
+				8A4F94C3206C960500EFE80A /* View */,
+			);
+			path = PersonInfo;
+			sourceTree = "<group>";
+		};
+		8A4F94C1206C960500EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94C4206C966800EFE80A /* FTPersonInfoVC.h */,
+				8A4F94C5206C966800EFE80A /* FTPersonInfoVC.m */,
+				8A4F94C6206C966800EFE80A /* FTPersonInfoVC.xib */,
+				8A4F94C9206C97C900EFE80A /* FTSexChooseVC.h */,
+				8A4F94CA206C97C900EFE80A /* FTSexChooseVC.m */,
+				8A4F94CB206C97C900EFE80A /* FTSexChooseVC.xib */,
+				8A4F94CE206C990A00EFE80A /* FTNickNameVC.h */,
+				8A4F94CF206C990A00EFE80A /* FTNickNameVC.m */,
+				8A4F94D0206C990A00EFE80A /* FTNickNameVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F94C2206C960500EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F94C3206C960500EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F94D3206CB7B700EFE80A /* SubModule */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94D4206CB7B700EFE80A /* ShippingAddress */,
+			);
+			path = SubModule;
+			sourceTree = "<group>";
+		};
+		8A4F94D4206CB7B700EFE80A /* ShippingAddress */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94D5206CB7B700EFE80A /* Controller */,
+				8A4F94D6206CB7B700EFE80A /* Model */,
+				8A4F94D7206CB7B700EFE80A /* View */,
+			);
+			path = ShippingAddress;
+			sourceTree = "<group>";
+		};
+		8A4F94D5206CB7B700EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94D8206CB7FD00EFE80A /* FTShippingAddressVC.h */,
+				8A4F94D9206CB7FD00EFE80A /* FTShippingAddressVC.m */,
+				8A4F94DA206CB7FD00EFE80A /* FTShippingAddressVC.xib */,
+				8A4F94E2206CB8AE00EFE80A /* FTEditShippingAddressVC.h */,
+				8A4F94E3206CB8AE00EFE80A /* FTEditShippingAddressVC.m */,
+				8A4F94E4206CB8AE00EFE80A /* FTEditShippingAddressVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F94D6206CB7B700EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F94D7206CB7B700EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F94F1206CBED000EFE80A /* SubModule */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94F2206CBED000EFE80A /* Contact */,
+			);
+			path = SubModule;
+			sourceTree = "<group>";
+		};
+		8A4F94F2206CBED000EFE80A /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94F3206CBED000EFE80A /* Controller */,
+				8A4F94F4206CBED000EFE80A /* Model */,
+				8A4F94F5206CBED000EFE80A /* View */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		8A4F94F3206CBED000EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F94F6206CBEE400EFE80A /* FTAddContactVC.h */,
+				8A4F94F7206CBEE400EFE80A /* FTAddContactVC.m */,
+				8A4F94F8206CBEE400EFE80A /* FTAddContactVC.xib */,
+				8A4F94FB206CBF2100EFE80A /* FTContactDetailVC.h */,
+				8A4F94FC206CBF2100EFE80A /* FTContactDetailVC.m */,
+				8A4F94FD206CBF2100EFE80A /* FTContactDetailVC.xib */,
+				8A4F9500206CBF3100EFE80A /* FTEditContactVC.h */,
+				8A4F9501206CBF3100EFE80A /* FTEditContactVC.m */,
+				8A4F9502206CBF3100EFE80A /* FTEditContactVC.xib */,
+				8A4F9505206CC07500EFE80A /* FTCustomerServiceVC.h */,
+				8A4F9506206CC07500EFE80A /* FTCustomerServiceVC.m */,
+				8A4F9507206CC07500EFE80A /* FTCustomerServiceVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F94F4206CBED000EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F94F5206CBED000EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4F950A206CC4E700EFE80A /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F950B206CC4E700EFE80A /* Controller */,
+				8A4F950C206CC4E700EFE80A /* Model */,
+				8A4F950D206CC4E700EFE80A /* View */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		8A4F950B206CC4E700EFE80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F950E206CC5EB00EFE80A /* FTWelcomeVC.h */,
+				8A4F950F206CC5EB00EFE80A /* FTWelcomeVC.m */,
+				8A4F9510206CC5EB00EFE80A /* FTWelcomeVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4F950C206CC4E700EFE80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4F950D206CC4E700EFE80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A611CD720789EF200818092 /* FTSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				8A611CD820789EF200818092 /* FTSegmentedControl.h */,
+				8A611CD920789EF200818092 /* FTSegmentedControl.m */,
+				8A611CDB20789EFF00818092 /* FTSegmentedButton.h */,
+				8A611CDC20789EFF00818092 /* FTSegmentedButton.m */,
+			);
+			path = FTSegmentedControl;
+			sourceTree = "<group>";
+		};
+		8A7920342071BBD600FA117F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A7920352071BBD600FA117F /* Tools */,
+				8A7920362071BBD600FA117F /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A7920352071BBD600FA117F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8A7920402071C10B00FA117F /* FTToolMacros.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8A7920362071BBD600FA117F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8A7920392071BBF200FA117F /* Other */,
+				8A7920382071BBF200FA117F /* Foundation */,
+				8A7920372071BBF200FA117F /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8A7920372071BBF200FA117F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8A79203D2071BCF100FA117F /* UITabBarItem+FTExtension.h */,
+				8A79203E2071BCF100FA117F /* UITabBarItem+FTExtension.m */,
+				8A7920442071C68400FA117F /* UITabBar+FTExtension.h */,
+				8A7920452071C68400FA117F /* UITabBar+FTExtension.m */,
+				8A872CE820772CE00059CF70 /* UIImage+FTExtension.h */,
+				8A872CE920772CE00059CF70 /* UIImage+FTExtension.m */,
+				8A872CEC2077D04F0059CF70 /* UIView+FTExtension.h */,
+				8A872CED2077D04F0059CF70 /* UIView+FTExtension.m */,
+				8A611CE12078A52E00818092 /* UITableView+FTExtension.h */,
+				8A611CE22078A52E00818092 /* UITableView+FTExtension.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		8A7920382071BBF200FA117F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8A06A9A920720CF0006B7661 /* NSObject+FTExtension.h */,
+				8A06A9AA20720CF0006B7661 /* NSObject+FTExtension.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		8A7920392071BBF200FA117F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8A872CF22077E9A20059CF70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A611CE42078A64F00818092 /* FTPhoneCell.h */,
+				8A611CE52078A64F00818092 /* FTPhoneCell.m */,
+				8A611CE62078A64F00818092 /* FTPhoneCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AC5036A2074B50500CDDD69 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				8AC5036B2074B51900CDDD69 /* FTFormTableView.h */,
+				8AC5036C2074B51900CDDD69 /* FTFormTableView.m */,
+				8AC5036E2074B52C00CDDD69 /* FormCell */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		8AC5036E2074B52C00CDDD69 /* FormCell */ = {
+			isa = PBXGroup;
+			children = (
+				8AC5036F2074B5AF00CDDD69 /* FTFormBaseTableViewCell.h */,
+				8AC503702074B5AF00CDDD69 /* FTFormBaseTableViewCell.m */,
+				8AC503762074BD0400CDDD69 /* FTFormTextFieldTableViewCell.h */,
+				8AC503772074BD0400CDDD69 /* FTFormTextFieldTableViewCell.m */,
+				8AC503802074CBF700CDDD69 /* FTFormTextFieldTableViewCell.xib */,
+				8AC5037B2074CBD400CDDD69 /* FTFormSelectedTableViewCell.h */,
+				8AC5037C2074CBD400CDDD69 /* FTFormSelectedTableViewCell.m */,
+				8AC5037D2074CBD400CDDD69 /* FTFormSelectedTableViewCell.xib */,
+				8AC503822074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.h */,
+				8AC503832074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.m */,
+				8AC503842074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.xib */,
+			);
+			path = FormCell;
+			sourceTree = "<group>";
+		};
+		8AC503722074B7EA00CDDD69 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				8AC503732074B7FC00CDDD69 /* FTSectionItem.h */,
+				8AC503742074B7FC00CDDD69 /* FTSectionItem.m */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A4F93B2206C79A900EFE80A /* FreeTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4F93C9206C79AA00EFE80A /* Build configuration list for PBXNativeTarget "FreeTalk" */;
+			buildPhases = (
+				7F03CD4E649406F903A5B230 /* [CP] Check Pods Manifest.lock */,
+				8A4F93AF206C79A900EFE80A /* Sources */,
+				8A4F93B0206C79A900EFE80A /* Frameworks */,
+				8A4F93B1206C79A900EFE80A /* Resources */,
+				5A5847F4C346DA22460215BF /* [CP] Embed Pods Frameworks */,
+				682801BA00F133FC8D2322F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeTalk;
+			productName = FreeTalk;
+			productReference = 8A4F93B3206C79A900EFE80A /* FreeTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A4F93AB206C79A900EFE80A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FT;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wsong;
+				TargetAttributes = {
+					8A4F93B2206C79A900EFE80A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8A4F93AE206C79A900EFE80A /* Build configuration list for PBXProject "FreeTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A4F93AA206C79A900EFE80A;
+			productRefGroup = 8A4F93B4206C79A900EFE80A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A4F93B2206C79A900EFE80A /* FreeTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A4F93B1206C79A900EFE80A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4F9438206C82A700EFE80A /* FTRegisterSMSCodeVC.xib in Resources */,
+				8A4F9484206C8C5500EFE80A /* FTAboutVC.xib in Resources */,
+				8A4F94CD206C97C900EFE80A /* FTSexChooseVC.xib in Resources */,
+				8A4F9456206C840C00EFE80A /* FTPhoneVC.xib in Resources */,
+				8A4F94BE206C94EE00EFE80A /* FTWalletVC.xib in Resources */,
+				8A4F94C8206C966800EFE80A /* FTPersonInfoVC.xib in Resources */,
+				8A4F9433206C827300EFE80A /* FTRegisterCountryVC.xib in Resources */,
+				8AC503812074CBF700CDDD69 /* FTFormTextFieldTableViewCell.xib in Resources */,
+				8A4F94B4206C914000EFE80A /* FTBindEmailVC.xib in Resources */,
+				8A4F945B206C843000EFE80A /* FTDiscoverVC.xib in Resources */,
+				8A4F944C206C83DF00EFE80A /* FTMessageVC.xib in Resources */,
+				8A4F9447206C83A400EFE80A /* FTLoginVC.xib in Resources */,
+				8A4F94F0206CBE4900EFE80A /* FTSelectContactVC.xib in Resources */,
+				8A4F94A1206C8FBE00EFE80A /* FTQuickCallVC.xib in Resources */,
+				8A4F9442206C832D00EFE80A /* FTRegisterSuccessVC.xib in Resources */,
+				8A4F94FA206CBEE400EFE80A /* FTAddContactVC.xib in Resources */,
+				8AC5037F2074CBD400CDDD69 /* FTFormSelectedTableViewCell.xib in Resources */,
+				8A4F94D2206C990A00EFE80A /* FTNickNameVC.xib in Resources */,
+				8A4F9509206CC07500EFE80A /* FTCustomerServiceVC.xib in Resources */,
+				8A4F94B9206C945C00EFE80A /* FTCouponVC.xib in Resources */,
+				8A4F947F206C8A7500EFE80A /* FTRedeemCodeVC.xib in Resources */,
+				8A4F9489206C8C6E00EFE80A /* FTFeedbackVC.xib in Resources */,
+				8A4F93ED206C7BF000EFE80A /* Assets.xcassets in Resources */,
+				8A4F94AF206C912900EFE80A /* FTBindPhoneVC.xib in Resources */,
+				8A4F949B206C8F7200EFE80A /* FTAuthorityManageVC.xib in Resources */,
+				8AC503862074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.xib in Resources */,
+				8A4F9451206C83FC00EFE80A /* FTAddressBookVC.xib in Resources */,
+				8A4F942E206C823300EFE80A /* FTRegisterPhoneNoVC.xib in Resources */,
+				8A4F94FF206CBF2100EFE80A /* FTContactDetailVC.xib in Resources */,
+				8A4F94A6206C903700EFE80A /* FTAccountSafeVC.xib in Resources */,
+				8A4F94E6206CB8AE00EFE80A /* FTEditShippingAddressVC.xib in Resources */,
+				8A4F9512206CC5EB00EFE80A /* FTWelcomeVC.xib in Resources */,
+				8A4F94DC206CB7FD00EFE80A /* FTShippingAddressVC.xib in Resources */,
+				8A4F9460206C844500EFE80A /* FTMeVC.xib in Resources */,
+				8A611CE82078A64F00818092 /* FTPhoneCell.xib in Resources */,
+				8A4F9504206CBF3100EFE80A /* FTEditContactVC.xib in Resources */,
+				8A4F9426206C7F3500EFE80A /* FTLoginRegisterVC.xib in Resources */,
+				8A4F948E206C8D1000EFE80A /* FTSettingVC.xib in Resources */,
+				8A4F943D206C82F600EFE80A /* FTRegisterPwdVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A5847F4C346DA22460215BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682801BA00F133FC8D2322F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F03CD4E649406F903A5B230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A4F93AF206C79A900EFE80A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4F941E206C7E0900EFE80A /* FTBaseVC.m in Sources */,
+				8A4F948D206C8D1000EFE80A /* FTSettingVC.m in Sources */,
+				8A4F9450206C83FC00EFE80A /* FTAddressBookVC.m in Sources */,
+				8A4F94CC206C97C900EFE80A /* FTSexChooseVC.m in Sources */,
+				8A4F943C206C82F600EFE80A /* FTRegisterPwdVC.m in Sources */,
+				8A4F94AE206C912900EFE80A /* FTBindPhoneVC.m in Sources */,
+				8A4F94A0206C8FBE00EFE80A /* FTQuickCallVC.m in Sources */,
+				8A4F9446206C83A400EFE80A /* FTLoginVC.m in Sources */,
+				8AC503752074B7FC00CDDD69 /* FTSectionItem.m in Sources */,
+				8A4F9508206CC07500EFE80A /* FTCustomerServiceVC.m in Sources */,
+				8AC5037E2074CBD400CDDD69 /* FTFormSelectedTableViewCell.m in Sources */,
+				8A4F947E206C8A7500EFE80A /* FTRedeemCodeVC.m in Sources */,
+				8A4F9503206CBF3100EFE80A /* FTEditContactVC.m in Sources */,
+				8A4F9421206C7E2B00EFE80A /* FTMainVC.m in Sources */,
+				8A611CE72078A64F00818092 /* FTPhoneCell.m in Sources */,
+				8A4F944B206C83DF00EFE80A /* FTMessageVC.m in Sources */,
+				8A4F941B206C7DE500EFE80A /* AppDelegate.m in Sources */,
+				8AC503852074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.m in Sources */,
+				8A4F9488206C8C6E00EFE80A /* FTFeedbackVC.m in Sources */,
+				8AC503792074BD0400CDDD69 /* FTFormTextFieldTableViewCell.m in Sources */,
+				8A4F9511206CC5EB00EFE80A /* FTWelcomeVC.m in Sources */,
+				8A4F942D206C823300EFE80A /* FTRegisterPhoneNoVC.m in Sources */,
+				8A611CEE2078AD7F00818092 /* FTSeparator.m in Sources */,
+				8AC5036D2074B51900CDDD69 /* FTFormTableView.m in Sources */,
+				8A4F949C206C8F7200EFE80A /* FTAuthorityManageVC.m in Sources */,
+				8A4F94BD206C94EE00EFE80A /* FTWalletVC.m in Sources */,
+				8A611CDD20789EFF00818092 /* FTSegmentedButton.m in Sources */,
+				8A4F94FE206CBF2100EFE80A /* FTContactDetailVC.m in Sources */,
+				8A4F945F206C844500EFE80A /* FTMeVC.m in Sources */,
+				8A872CEA20772CE00059CF70 /* UIImage+FTExtension.m in Sources */,
+				8A4F94B3206C914000EFE80A /* FTBindEmailVC.m in Sources */,
+				8A4F94EF206CBE4900EFE80A /* FTSelectContactVC.m in Sources */,
+				8A4F945A206C843000EFE80A /* FTDiscoverVC.m in Sources */,
+				8A4F9441206C832D00EFE80A /* FTRegisterSuccessVC.m in Sources */,
+				8A4F94B8206C945C00EFE80A /* FTCouponVC.m in Sources */,
+				8A06A9AB20720CF0006B7661 /* NSObject+FTExtension.m in Sources */,
+				8A4F94E5206CB8AE00EFE80A /* FTEditShippingAddressVC.m in Sources */,
+				8A611CE32078A52E00818092 /* UITableView+FTExtension.m in Sources */,
+				8A4F94A5206C903700EFE80A /* FTAccountSafeVC.m in Sources */,
+				8A4F9425206C7F3500EFE80A /* FTLoginRegisterVC.m in Sources */,
+				8AC503712074B5AF00CDDD69 /* FTFormBaseTableViewCell.m in Sources */,
+				8A7920462071C68400FA117F /* UITabBar+FTExtension.m in Sources */,
+				8A79203F2071BCF100FA117F /* UITabBarItem+FTExtension.m in Sources */,
+				8A872CE5207720210059CF70 /* FTTabBarVC.m in Sources */,
+				8A872CEE2077D04F0059CF70 /* UIView+FTExtension.m in Sources */,
+				8A4F941A206C7DE500EFE80A /* main.m in Sources */,
+				8A4F94DB206CB7FD00EFE80A /* FTShippingAddressVC.m in Sources */,
+				8A4F9483206C8C5500EFE80A /* FTAboutVC.m in Sources */,
+				8A4F9437206C82A700EFE80A /* FTRegisterSMSCodeVC.m in Sources */,
+				8A4F94C7206C966800EFE80A /* FTPersonInfoVC.m in Sources */,
+				8A4F9432206C827300EFE80A /* FTRegisterCountryVC.m in Sources */,
+				8A611CDA20789EF200818092 /* FTSegmentedControl.m in Sources */,
+				8A4F94D1206C990A00EFE80A /* FTNickNameVC.m in Sources */,
+				8A4F9455206C840C00EFE80A /* FTPhoneVC.m in Sources */,
+				8A4F94F9206CBEE400EFE80A /* FTAddContactVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A4F93C7206C79AA00EFE80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A4F93C8206C79AA00EFE80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A4F93CA206C79AA00EFE80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5D6A6932997E1B6E770AF2 /* Pods-FreeTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FreeTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbjt.FreeTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A4F93CB206C79AA00EFE80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A59B3D6C430CC1E5D6E886 /* Pods-FreeTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FreeTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbjt.FreeTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A4F93AE206C79A900EFE80A /* Build configuration list for PBXProject "FreeTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4F93C7206C79AA00EFE80A /* Debug */,
+				8A4F93C8206C79AA00EFE80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4F93C9206C79AA00EFE80A /* Build configuration list for PBXNativeTarget "FreeTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4F93CA206C79AA00EFE80A /* Debug */,
+				8A4F93CB206C79AA00EFE80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A4F93AB206C79A900EFE80A /* Project object */;
+}
