@@ -10,4 +10,6 @@
 
 @interface FTTabBarVC : UITabBarController
 
++ (instancetype)shared;
+
 @end

@@ -34,46 +34,55 @@
                                              forState:UIControlStateSelected];
 }
 
++ (instancetype)shared {
+    static FTTabBarVC *_tabBarVC;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _tabBarVC = [[FTTabBarVC alloc] init];
+    });
+    return _tabBarVC;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 添加子控制器
-    [self setupAllChildVC];
+    [self addAllChildVC];
 }
 
-- (void)setupAllChildVC {
+- (void)addAllChildVC {
     // 消息
-    [self setupChildVC:[[FTMessageVC alloc] init]
+    [self addChildVC:[[FTMessageVC alloc] init]
                  image:[UIImage ft_originImageWithImageNamed:@"message_normal"]
          selectedImage:[UIImage ft_originImageWithImageNamed:@"message_selected"]
                  title:@"消息"
      imageBottomMargin:0];
     // 通讯录
-    [self setupChildVC:[[FTAddressBookVC alloc] init]
+    [self addChildVC:[[FTAddressBookVC alloc] init]
                  image:[UIImage ft_originImageWithImageNamed:@"contacts_normal"]
          selectedImage:[UIImage ft_originImageWithImageNamed:@"contacts_selected"]
                  title:@"通讯录"
      imageBottomMargin:0];
     // 电话
-    [self setupChildVC:[[FTPhoneVC alloc] init]
+    [self addChildVC:[[FTPhoneVC alloc] init]
                  image:[UIImage ft_originImageWithImageNamed:@"phone_normal"]
          selectedImage:[UIImage ft_originImageWithImageNamed:@"phone_selected"]
                  title:@"电话"
      imageBottomMargin:14];
     // 发现
-    [self setupChildVC:[[FTDiscoverVC alloc] init]
+    [self addChildVC:[[FTDiscoverVC alloc] init]
                  image:[UIImage ft_originImageWithImageNamed:@"more_normal"]
          selectedImage:[UIImage ft_originImageWithImageNamed:@"more_selected"]
                  title:@"发现"
      imageBottomMargin:0];
     // 我
-    [self setupChildVC:[[FTMeVC alloc] init]
+    [self addChildVC:[[FTMeVC alloc] init]
                  image:[UIImage ft_originImageWithImageNamed:@"mine_normal"]
          selectedImage:[UIImage ft_originImageWithImageNamed:@"mine_selected"]
                  title:@"我"
      imageBottomMargin:0];
 }
 
-- (void)setupChildVC:(UIViewController *)vc
+- (void)addChildVC:(UIViewController *)vc
                image:(UIImage *)image
        selectedImage:(UIImage *)selectedImage
                title:(NSString *)title

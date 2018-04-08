@@ -11,6 +11,7 @@
 #import "NSObject+FTExtension.h"
 #import "FTToolMacros.h"
 #import "UIView+FTExtension.h"
+#import "FTTabBarVC.h"
 
 // 重新调整tabbar图片位置
 static void ft_layoutSubviews(id obj, SEL sel) {
@@ -20,7 +21,7 @@ static void ft_layoutSubviews(id obj, SEL sel) {
 
     if ([obj isKindOfClass:tabBarButtonClass]) {
         
-        NSArray<UITabBarItem *> *items = [obj valueForKeyPath:@"tabBar.items"];
+        NSArray<UITabBarItem *> *items = [[FTTabBarVC shared].childViewControllers valueForKeyPath:@"tabBarItem"];
         NSArray *buttonArray = [items valueForKeyPath:@"view"];
         UITabBarItem *item = items[[buttonArray indexOfObject:obj]];
         
