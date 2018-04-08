@@ -6,8 +6,10 @@
 //  Copyright © 2018年 wsong. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "FTNavigationBar.h"
 
 @interface FTBaseVC : UIViewController
+
+@property (nonatomic, strong, readonly) FTNavigationBar *navigationBar;
 
 @end

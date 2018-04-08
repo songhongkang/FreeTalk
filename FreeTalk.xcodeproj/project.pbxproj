@@ -89,6 +89,12 @@
 		8A611CEE2078AD7F00818092 /* FTSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A611CED2078AD7F00818092 /* FTSeparator.m */; };
 		8A79203F2071BCF100FA117F /* UITabBarItem+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A79203E2071BCF100FA117F /* UITabBarItem+FTExtension.m */; };
 		8A7920462071C68400FA117F /* UITabBar+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7920452071C68400FA117F /* UITabBar+FTExtension.m */; };
+		8A840A8220799FF30067C08D /* FTNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A840A8120799FF30067C08D /* FTNavigationVC.m */; };
+		8A840A862079B40B0067C08D /* FTSelectedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A840A852079B40B0067C08D /* FTSelectedCell.m */; };
+		8A840A8A2079B43E0067C08D /* FTSelectedCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A840A892079B43E0067C08D /* FTSelectedCellItem.m */; };
+		8A840A8D2079B48E0067C08D /* FTSelectedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A840A8C2079B48E0067C08D /* FTSelectedTableView.m */; };
+		8A840A912079E7D10067C08D /* FTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A840A902079E7D10067C08D /* FTNavigationBar.m */; };
+		8A840A932079ED200067C08D /* FTNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A840A922079ED200067C08D /* FTNavigationBar.xib */; };
 		8A872CE5207720210059CF70 /* FTTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A872CE4207720210059CF70 /* FTTabBarVC.m */; };
 		8A872CEA20772CE00059CF70 /* UIImage+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A872CE920772CE00059CF70 /* UIImage+FTExtension.m */; };
 		8A872CEE2077D04F0059CF70 /* UIView+FTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A872CED2077D04F0059CF70 /* UIView+FTExtension.m */; };
@@ -237,6 +243,17 @@
 		8A7920402071C10B00FA117F /* FTToolMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTToolMacros.h; sourceTree = "<group>"; };
 		8A7920442071C68400FA117F /* UITabBar+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FTExtension.h"; sourceTree = "<group>"; };
 		8A7920452071C68400FA117F /* UITabBar+FTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FTExtension.m"; sourceTree = "<group>"; };
+		8A840A8020799FF30067C08D /* FTNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNavigationVC.h; sourceTree = "<group>"; };
+		8A840A8120799FF30067C08D /* FTNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTNavigationVC.m; sourceTree = "<group>"; };
+		8A840A842079B40B0067C08D /* FTSelectedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSelectedCell.h; sourceTree = "<group>"; };
+		8A840A852079B40B0067C08D /* FTSelectedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSelectedCell.m; sourceTree = "<group>"; };
+		8A840A882079B43E0067C08D /* FTSelectedCellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSelectedCellItem.h; sourceTree = "<group>"; };
+		8A840A892079B43E0067C08D /* FTSelectedCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSelectedCellItem.m; sourceTree = "<group>"; };
+		8A840A8B2079B48E0067C08D /* FTSelectedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSelectedTableView.h; sourceTree = "<group>"; };
+		8A840A8C2079B48E0067C08D /* FTSelectedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSelectedTableView.m; sourceTree = "<group>"; };
+		8A840A8F2079E7D10067C08D /* FTNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTNavigationBar.h; sourceTree = "<group>"; };
+		8A840A902079E7D10067C08D /* FTNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTNavigationBar.m; sourceTree = "<group>"; };
+		8A840A922079ED200067C08D /* FTNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTNavigationBar.xib; sourceTree = "<group>"; };
 		8A872CE3207720210059CF70 /* FTTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTTabBarVC.h; sourceTree = "<group>"; };
 		8A872CE4207720210059CF70 /* FTTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTTabBarVC.m; sourceTree = "<group>"; };
 		8A872CE820772CE00059CF70 /* UIImage+FTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FTExtension.h"; sourceTree = "<group>"; };
@@ -356,6 +373,8 @@
 				8A4F9420206C7E2B00EFE80A /* FTMainVC.m */,
 				8A872CE3207720210059CF70 /* FTTabBarVC.h */,
 				8A872CE4207720210059CF70 /* FTTabBarVC.m */,
+				8A840A8020799FF30067C08D /* FTNavigationVC.h */,
+				8A840A8120799FF30067C08D /* FTNavigationVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -363,6 +382,7 @@
 		8A4F93FA206C7DE500EFE80A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8A840A872079B4220067C08D /* SelectedCell */,
 				8AC503722074B7EA00CDDD69 /* Form */,
 			);
 			path = Model;
@@ -373,6 +393,8 @@
 			children = (
 				8A611CEC2078AD7F00818092 /* FTSeparator.h */,
 				8A611CED2078AD7F00818092 /* FTSeparator.m */,
+				8A840A8E2079E7B00067C08D /* FTNavigationBar */,
+				8A840A832079B3F10067C08D /* SelectedCell */,
 				8A611CD720789EF200818092 /* FTSegmentedControl */,
 				8AC5036A2074B50500CDDD69 /* Form */,
 			);
@@ -1106,6 +1128,36 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		8A840A832079B3F10067C08D /* SelectedCell */ = {
+			isa = PBXGroup;
+			children = (
+				8A840A842079B40B0067C08D /* FTSelectedCell.h */,
+				8A840A852079B40B0067C08D /* FTSelectedCell.m */,
+				8A840A8B2079B48E0067C08D /* FTSelectedTableView.h */,
+				8A840A8C2079B48E0067C08D /* FTSelectedTableView.m */,
+			);
+			path = SelectedCell;
+			sourceTree = "<group>";
+		};
+		8A840A872079B4220067C08D /* SelectedCell */ = {
+			isa = PBXGroup;
+			children = (
+				8A840A882079B43E0067C08D /* FTSelectedCellItem.h */,
+				8A840A892079B43E0067C08D /* FTSelectedCellItem.m */,
+			);
+			path = SelectedCell;
+			sourceTree = "<group>";
+		};
+		8A840A8E2079E7B00067C08D /* FTNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				8A840A8F2079E7D10067C08D /* FTNavigationBar.h */,
+				8A840A902079E7D10067C08D /* FTNavigationBar.m */,
+				8A840A922079ED200067C08D /* FTNavigationBar.xib */,
+			);
+			path = FTNavigationBar;
+			sourceTree = "<group>";
+		};
 		8A872CF22077E9A20059CF70 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1183,12 +1235,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FT;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = wsong;
 				TargetAttributes = {
 					8A4F93B2206C79A900EFE80A = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1242,6 +1294,7 @@
 				8A4F949B206C8F7200EFE80A /* FTAuthorityManageVC.xib in Resources */,
 				8AC503862074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.xib in Resources */,
 				8A4F9451206C83FC00EFE80A /* FTAddressBookVC.xib in Resources */,
+				8A840A932079ED200067C08D /* FTNavigationBar.xib in Resources */,
 				8A4F942E206C823300EFE80A /* FTRegisterPhoneNoVC.xib in Resources */,
 				8A4F94FF206CBF2100EFE80A /* FTContactDetailVC.xib in Resources */,
 				8A4F94A6206C903700EFE80A /* FTAccountSafeVC.xib in Resources */,
@@ -1337,9 +1390,12 @@
 				8A4F941B206C7DE500EFE80A /* AppDelegate.m in Sources */,
 				8AC503852074CFAD00CDDD69 /* FTFormSingleChoiceTableViewCell.m in Sources */,
 				8A4F9488206C8C6E00EFE80A /* FTFeedbackVC.m in Sources */,
+				8A840A912079E7D10067C08D /* FTNavigationBar.m in Sources */,
 				8AC503792074BD0400CDDD69 /* FTFormTextFieldTableViewCell.m in Sources */,
 				8A4F9511206CC5EB00EFE80A /* FTWelcomeVC.m in Sources */,
+				8A840A862079B40B0067C08D /* FTSelectedCell.m in Sources */,
 				8A4F942D206C823300EFE80A /* FTRegisterPhoneNoVC.m in Sources */,
+				8A840A8220799FF30067C08D /* FTNavigationVC.m in Sources */,
 				8A611CEE2078AD7F00818092 /* FTSeparator.m in Sources */,
 				8AC5036D2074B51900CDDD69 /* FTFormTableView.m in Sources */,
 				8A4F949C206C8F7200EFE80A /* FTAuthorityManageVC.m in Sources */,
@@ -1347,6 +1403,7 @@
 				8A611CDD20789EFF00818092 /* FTSegmentedButton.m in Sources */,
 				8A4F94FE206CBF2100EFE80A /* FTContactDetailVC.m in Sources */,
 				8A4F945F206C844500EFE80A /* FTMeVC.m in Sources */,
+				8A840A8A2079B43E0067C08D /* FTSelectedCellItem.m in Sources */,
 				8A872CEA20772CE00059CF70 /* UIImage+FTExtension.m in Sources */,
 				8A4F94B3206C914000EFE80A /* FTBindEmailVC.m in Sources */,
 				8A4F94EF206CBE4900EFE80A /* FTSelectContactVC.m in Sources */,
@@ -1362,6 +1419,7 @@
 				8A7920462071C68400FA117F /* UITabBar+FTExtension.m in Sources */,
 				8A79203F2071BCF100FA117F /* UITabBarItem+FTExtension.m in Sources */,
 				8A872CE5207720210059CF70 /* FTTabBarVC.m in Sources */,
+				8A840A8D2079B48E0067C08D /* FTSelectedTableView.m in Sources */,
 				8A872CEE2077D04F0059CF70 /* UIView+FTExtension.m in Sources */,
 				8A4F941A206C7DE500EFE80A /* main.m in Sources */,
 				8A4F94DB206CB7FD00EFE80A /* FTShippingAddressVC.m in Sources */,
@@ -1393,6 +1451,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1400,6 +1459,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1448,6 +1508,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1455,6 +1516,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1489,13 +1551,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGZSH7GRVC;
 				INFOPLIST_FILE = FreeTalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zbjt.FreeTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1507,8 +1571,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGZSH7GRVC;
 				INFOPLIST_FILE = FreeTalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -10,6 +10,7 @@
 #import "UIView+FTExtension.h"
 #import "UIImage+FTExtension.h"
 #import "FTSegmentedButton.h"
+#import "FTToolMacros.h"
 
 /** FTSegmentedControl固定高度 */
 #define FT_SEGMENTED_CONTROL_HEIGHT 26

@@ -25,7 +25,7 @@
  @return cell
  */
 - (__kindof UITableViewCell *)ft_dequeueReusableCellWithNibClass:(Class)nibClass
-                                                     forIndexPath:(NSIndexPath *)indexPath;
+                                                    forIndexPath:(NSIndexPath *)indexPath;
 
 /**
  段头尾分隔占位视图，iOS 11需要
@@ -33,5 +33,5 @@
  @return 段头尾分隔占位视图
  */
 - (UIView *)ft_placeholderHeaderFooterView;
-
+ 
 @end

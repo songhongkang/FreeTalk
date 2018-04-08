@@ -17,7 +17,7 @@
 
 // 获取一个cell
 - (__kindof UITableViewCell *)ft_dequeueReusableCellWithNibClass:(Class)nibClass
-                                                     forIndexPath:(NSIndexPath *)indexPath {
+                                                    forIndexPath:(NSIndexPath *)indexPath {
     return [self dequeueReusableCellWithIdentifier:NSStringFromClass(nibClass) forIndexPath:indexPath];
 }
 
@@ -32,5 +32,5 @@
     }
     return placeholderView;
 }
-
+ 
 @end

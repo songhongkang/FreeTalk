@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "FTTabBarVC.h"
-#import "FTToolMacros.h"
 
 @interface AppDelegate ()
 
@@ -22,36 +21,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[FTTabBarVC alloc] init];
     [self.window makeKeyAndVisible];
-    // 设置app整体样式
-    [self setupAppearance];
     return YES;
 }
-
-- (void)setupAppearance {
-    [self setupNavigationAppearance];
-    [self setupTabBarAppearance];
-}
-
-- (void)setupNavigationAppearance {
-    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:14],
-                                                           NSForegroundColorAttributeName : FT_COLOR_THEME}
-                                                forState:UIControlStateNormal];
-    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:14],
-                                                           NSForegroundColorAttributeName : FT_COLOR_THEME}
-                                                forState:UIControlStateHighlighted];
-}
-
-- (void)setupTabBarAppearance {
-    [UITabBar appearance].translucent = NO;
-    [UITabBarItem appearance].titlePositionAdjustment = UIOffsetMake(0, -4);
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:9],
-                                                        NSForegroundColorAttributeName : FT_COLOR_GRAY(113)}
-                                             forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:9],
-                                                        NSForegroundColorAttributeName : FT_COLOR_THEME}
-                                             forState:UIControlStateSelected];
-}
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

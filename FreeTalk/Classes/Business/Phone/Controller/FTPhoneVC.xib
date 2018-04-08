@@ -20,8 +20,8 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="47" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hE8-rL-WZx">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="47" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hE8-rL-WZx" customClass="FTSelectedTableView">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="X5J-hp-MZ8"/>
@@ -33,9 +33,10 @@
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="hE8-rL-WZx" secondAttribute="bottom" id="Co5-mo-NMr"/>
                 <constraint firstItem="hE8-rL-WZx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cOJ-kt-vi5"/>
-                <constraint firstItem="hE8-rL-WZx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pLE-nq-2sG"/>
                 <constraint firstAttribute="trailing" secondItem="hE8-rL-WZx" secondAttribute="trailing" id="r1g-Fe-bLc"/>
+                <constraint firstItem="hE8-rL-WZx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="xxM-k9-XTB"/>
             </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
         </view>
     </objects>
 </document>

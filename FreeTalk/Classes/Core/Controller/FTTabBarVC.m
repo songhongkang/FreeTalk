@@ -14,12 +14,25 @@
 #import "FTMeVC.h"
 #import "UITabBarItem+FTExtension.h"
 #import "UIImage+FTExtension.h"
+#import "FTToolMacros.h"
+#import "FTNavigationVC.h"
 
 @interface FTTabBarVC ()
 
 @end
 
 @implementation FTTabBarVC
+
++ (void)initialize {
+    [UITabBar appearance].translucent = NO;
+    [UITabBarItem appearance].titlePositionAdjustment = UIOffsetMake(0, -4);
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:9],
+                                                        NSForegroundColorAttributeName : FT_COLOR_GRAY(113)}
+                                             forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:9],
+                                                        NSForegroundColorAttributeName : FT_COLOR_THEME}
+                                             forState:UIControlStateSelected];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -66,7 +79,7 @@
                title:(NSString *)title
    imageBottomMargin:(CGFloat)imageBottomMargin {
     
-    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:vc];
+    FTNavigationVC *navVC = [[FTNavigationVC alloc] initWithRootViewController:vc];
     [self addChildViewController:navVC];
     navVC.tabBarItem.image = image;
     navVC.tabBarItem.selectedImage = selectedImage;
